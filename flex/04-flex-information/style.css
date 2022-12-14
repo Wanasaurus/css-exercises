@@ -17,7 +17,17 @@ img {
 .plants {
   display: flex;
   justify-content: center;
+  gap: 52px;
 }
+
+.barberry, 
+.chilli,
+.pepper,
+.saffron {
+  flex-basis: 200px;
+  flex-wrap: wrap;
+  text-align: center;
+ } 
 
 /* do not edit this footer */
 .footer {
