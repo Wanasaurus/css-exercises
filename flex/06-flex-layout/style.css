@@ -40,6 +40,13 @@ ul {
   padding: 1em;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 a:link {
   text-decoration: none;
   color: black;
