@@ -54,7 +54,10 @@ ul {
 
 .footer {
   background-color: #eeeeee;
-}
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  }
 
 body {
   display: flex;
