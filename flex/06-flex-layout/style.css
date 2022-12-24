@@ -56,6 +56,12 @@ ul {
   background-color: #eeeeee;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 a:link {
   text-decoration: none;
   color: black;
