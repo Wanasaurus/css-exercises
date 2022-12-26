@@ -7,7 +7,6 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 img {
@@ -19,6 +18,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 0.5em 1em;
 }
 
 input {
@@ -37,7 +37,8 @@ ul {
   gap: 1em;
 }
 
-.header {
+.header, 
+.footer {
   display: flex;
   justify-content: space-between;
   padding: 1em;
@@ -45,31 +46,24 @@ ul {
 
 .content {
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1em;
-}
-
-.buttons {
-  padding: 0.5em;
 }
 
 .footer {
   background-color: #eeeeee;
-  display: flex;
-  justify-content: space-between;
-  padding: 1em;
   }
 
 a:link {
   text-decoration: none;
-  color: black;
+  color: grey;
 }
 
 a:visited {
   text-decoration: none;
-  color: grey;
+  color: black;
 }
 
 a:hover {
