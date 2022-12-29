@@ -30,7 +30,13 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
-  flex-shrink: 0;
+  flex-shrink: 0;  
+}
+
+a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
 }
 
 .card {
